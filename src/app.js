@@ -8,8 +8,8 @@ app.get('/', (req, res) => {
   	name: 'john doe', 
   	age: 28 , 
   	city: 'jakarta', 
-  	state: 'dki jakarta', 
-  	country: 'indonesian'
+  	state: 'DKI jakarta', 
+  	country: 'indonesian',
   })
 })
 
