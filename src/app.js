@@ -4,11 +4,13 @@ const app = express()
 app.use(express.json())
 
 app.get('/', (req, res) => {
-  res.status(200).json({ name: 'john doe', age: 28 , city: 'jakarta', state: 'dki jakarta'})
-})
-
-app.get('/', (req, res) => {
-  res.status(200).json({ name: 'john doe', age: 28 , city: 'jakarta', state: 'dki jakarta'})
+  res.status(200).json({ 
+  	name: 'john doe', 
+  	age: 28 , 
+  	city: 'jakarta', 
+  	state: 'dki jakarta', 
+  	country: 'indonesian'
+  })
 })
 
 module.exports = app
